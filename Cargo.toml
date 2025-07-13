@@ -1,0 +1,11 @@
+[workspace]
+members = [
+    "functions",
+    # "crate2",
+    # "shared-lib",
+    # "tools/tool1"
+]
+# Опционально: общие настройки
+[workspace.package]
+version = "0.0.1"
+edition = "2025"
