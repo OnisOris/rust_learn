@@ -32,11 +32,17 @@ fn main() {
     // bool value
     let bool_value = true;
     println!("bool_value = {bool_value}");
-
     let c = 'z';
     println!("c = {c}");
     let z: char = 'ℤ';
     println!("z = {z}");
     let heart_eyed_cat = '😻';
     println!("heart_eyed_cat = {heart_eyed_cat}");
+    let tup: (i32, f64, u8) = (500, 6.4, 1);
+    let (xx, yy, zz) = tup;
+    println!("xx, yy, zz from tuple = {xx}, {yy}, {zz}");
+    let fivezerozero = tup.1;
+    println!("value from fivezerozero = {fivezerozero}");
+    let array: [i32; 4] = [0, 1, 2, 76];
+    // println!("array = {array}");
 }
