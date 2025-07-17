@@ -1,5 +1,5 @@
 [workspace]
-members = [
+members = [ "control_construct",
     "functions", "types",
     # "crate2",
     # "shared-lib",
