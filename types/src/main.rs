@@ -1,3 +1,5 @@
+use std::io;
+
 fn main() {
     let a: i64 = 5;
     let b: u64 = 43;
@@ -44,5 +46,15 @@ fn main() {
     let fivezerozero = tup.1;
     println!("value from fivezerozero = {fivezerozero}");
     let array: [i32; 4] = [0, 1, 2, 76];
-    // println!("array = {array}");
+    let array_1 = array[1];
+    println!("array[1] = {array_1}");
+    let mut test_string = String::new();
+    io::stdin()
+        .read_line(&mut test_string)
+        .expect("Failed to readline");
+    println!("output from stin: {test_string}");
+    let test_size: usize = test_string.trim().parse().expect("Something wrong");
+    println!("test_size from imput and change to usize = {test_size}");
+    let element = array[test_size];
+    println!("Print element = array[test_size] = {element}");
 }
