@@ -1,6 +1,6 @@
 [workspace]
 members = [ "control_construct",
-    "functions", "types",
+    "functions", "loops", "types",
     # "crate2",
     # "shared-lib",
     # "tools/tool1"
