@@ -1,6 +1,6 @@
 [workspace]
 members = [ "control_construct",
-    "functions", "loops", "types",
+    "functions", "loops", "types", "rust_from_python"
     # "crate2",
     # "shared-lib",
     # "tools/tool1"
